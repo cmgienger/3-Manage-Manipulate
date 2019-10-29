@@ -17,7 +17,7 @@ mtcar_data #shows dataframe with the car names as column rn
 
 #2. How do you determine the different types of data contained in mtcars?
 
-#3. Assign the dataset to a new object.
+#3. Assign the mtcars dataset to a new object.
 
 # Using our knowledge of dplyr, answer the following:
 # I recommend usings 'pipes' where possible (but not required), as they are more intuitive.

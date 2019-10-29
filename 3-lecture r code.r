@@ -30,7 +30,7 @@ lo_hi_fruit
 # what does ‘compensation’ look like now?
 head(compensation)
 #log transform the Fruit variable
-compensation <- mutate(compensation, logFruit = log(Fruit)) #makes new transformed column, overwrites 	dataframe
+compensation <- mutate(compensation, logFruit = log(Fruit)) #makes new transformed column, overwrites dataframe
 # what does ‘compensation’ look like after the mutate
 head(compensation)
 

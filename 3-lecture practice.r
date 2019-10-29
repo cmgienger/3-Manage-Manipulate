@@ -9,13 +9,10 @@ data(mtcars) # where does this data come from? Is it magic?
 #fix problem with car names not being in a dataframe column
 library(data.table) #might need to install if not on your computer
 mtcar_data <- data.table(mtcars, keep.rownames = TRUE) #can obviously use your object name rather than dat
-mtcar_data #shows dataframe dat with the car names as column rn
-
-#In 2019, JUST GIVE THEM PROBLEMS (maybe 8 total) TO SOLVE, NO PREPROCESSING STUFF
-#Including give them a summarized table and have them engineer the code required to make the table
-#no verbal description of data
+mtcar_data #shows dataframe with the car names as column rn
 
 
+##################  HOMEWORK  #################################
 #1. What are at least 2 different ways to view the 'mtcars' dataset?
 
 #2. How do you determine the different types of data contained in mtcars?
@@ -25,8 +22,6 @@ mtcar_data #shows dataframe dat with the car names as column rn
 # Using our knowledge of dplyr, answer the following:
 # I recommend usings 'pipes' where possible (but not required), as they are more intuitive.
 # Assign each answer to a new object (e.g. quest4, quest5, etc.)
-
-
 
 #4. What is the mean and standard deviation of horsepower (hp)
 #for each group of cars, as measured by their number of cylinders (cyl)?
@@ -40,6 +35,7 @@ mtcar_data #shows dataframe dat with the car names as column rn
 
 #8. What are the top 10 cars in ratio of horsepower (hp) to fuel-efficiency (mpg)?
 
+###############################################################
 #Turn in a properly formatted script file for your answers. I am going to run the 
 #entire script as one chunk of code, and if it doesn't work, I won't grade it. 
 #You need to make it bullet-proof for your 'collaborator' (me). 

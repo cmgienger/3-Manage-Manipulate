@@ -41,4 +41,4 @@ mtcar_data #shows dataframe with the car names as column rn
 #You need to make it bullet-proof for your 'collaborator' (me). 
 #Review Beckerman Section 3.3.5 for reference.
 #OK to collaborate with others, but don't let people sponge off your hard work.
-#Due one week from today (before class) via email: giengerc@apsu.edu
+#Due one week from today (before class) via D2L Assignments submission box.

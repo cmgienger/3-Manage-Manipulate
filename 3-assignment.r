@@ -1,5 +1,5 @@
 #C.M. Gienger
-#R Lecture 3: Practice excercises for subsetting and manipulating data
+#R Lecture 3: Practice exercises for subsetting and manipulating data
 
 library(dplyr)
 library(data.table) #might need to install if not on your computer
@@ -22,7 +22,7 @@ mtcar_data #shows dataframe with the car names in first column
 #3. Assign the mtcars dataset to a new object.
 
 # Using our knowledge of dplyr, answer the following:
-# I recommend usings 'pipes' where possible (but not required), as they are more intuitive.
+# I recommend using 'pipes' where possible (but not required), as they are more intuitive.
 # Assign each answer to a new object (e.g. quest4, quest5, etc.)
 
 #4. What is the mean and standard deviation of horsepower (hp)

@@ -34,7 +34,7 @@ compensation <- mutate(compensation, logFruit = log(Fruit)) #makes new transform
 # what does ‘compensation’ look like after the mutate
 head(compensation)
 
-#arrange
+?log#arrange
 arrange(compensation, Fruit) #default is ascending
 arrange(compensation, Grazing, Fruit) #sorts Grazed group from L-H, then Ungrazed L-H
 

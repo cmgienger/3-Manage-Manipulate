@@ -5,11 +5,6 @@ library(dplyr)
 
 #First load a dataset to work with;
 data(mtcars) # where does this data come from? Is it magic?
-# for reference:  library(help = "datasets")
-
-#fix problem with car names not being in a dataframe column
-mtcars$names <- rownames(mtcars)
-mtcars %>% relocate(names)
 
 ##################  HOMEWORK  #################################
 # Assign each answer to a new object (e.g. quest4, quest5, etc.). Try to use good coding practice

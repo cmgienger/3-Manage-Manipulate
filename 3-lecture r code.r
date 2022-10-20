@@ -36,6 +36,8 @@ head(compensation)
 
 ?log#arrange
 arrange(compensation, Fruit) #default is ascending
+arrange(compensation, -Fruit) #sorts descending order
+
 arrange(compensation, Grazing, Fruit) #sorts Grazed group from L-H, then Ungrazed L-H
 
 #You can use multiple dplyr verbs in one line

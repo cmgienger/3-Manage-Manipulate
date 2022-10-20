@@ -37,16 +37,14 @@ quest_6 <-
 # horsepower (hp) greater than 100.
 quest_7 <-  
 
-#8. What are the top 10 cars in ratio of horsepower (hp) to fuel-efficiency (mpg)?
+#8. What are the top 10 best cars in their ratio of horsepower (hp) to fuel-efficiency (mpg)?
+  #hint: you have to make a new variable that is a calculation of hp to mpg
 quest_8 <-   
 
 #9. List all the Merc cars (Mercury) in order of increasing fuel efficiency (mpg).
-  #hint_1 (using str_detect in tidyverse) https://suzan.rbind.io/2018/02/dplyr-tutorial-3/#filtering-rows-based-on-regex
-  #hint_2 (using grepel in base R): https://www.statology.org/filter-rows-that-contain-string-dplyr/
-  
 quest_9 <-  
 
-#10. Give the name, mpg, disp, and wt for the car with the highest horse power (hp).
+#10. Give the mpg, disp, and wt for the car with the highest horse power (hp).
 quest_10 <-  
 ###############################################################
 #Turn in a properly formatted script file for your answers. I am going to run the 

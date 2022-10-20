@@ -1,10 +1,13 @@
 #C.M. Gienger
-#R Lecture 3: Practice exercises for subsetting and manipulating data
+#R Lecture 3: Practice exercises for sub-setting and manipulating data
 
 library(dplyr)
 
-#First load a dataset to work with;
+#After creating a new project folder, load a dataset to work with;
 data(mtcars) # where does this data come from? Is it magic?
+
+#Fix the mtcars dataset to have "car_name" inserted as the column header for the different models of cars.
+#See the lecture, copy-paste the code below.
 
 ##################  HOMEWORK  #################################
 # Assign each answer to a new object (e.g. quest4, quest5, etc.). Try to use good coding practice
@@ -47,7 +50,7 @@ quest_9 <-
 #10. Give the mpg, disp, and wt for the car with the highest horse power (hp).
 quest_10 <-  
 ###############################################################
-#Turn in a properly formatted script file for your answers. I am going to run the 
+#Turn in a properly formatted project file for your answers. I am going to run the 
 #entire script as one chunk of code, and if it doesn't work, I won't grade it. 
 #You need to make it bullet-proof for your 'collaborator' (me). 
 #Review Beckerman Section 3.3.5 for reference.

@@ -3,6 +3,8 @@
 .RData
 .Ruserdata
 .xlsx
+.gitignore
+README.md
 
 
 # General
@@ -31,6 +33,8 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
 
 #ignore assignment folder
 assignment_code/
